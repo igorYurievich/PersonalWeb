@@ -1,0 +1,16 @@
+@import 'variables'; // Импорт переменных
+
+header {
+  font-family: 'Montserrat', sans-serif;
+  background-color: $gray-900; // Использование переменной
+  color: $white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#projects .card-body {
+  background-color: $gray-700;
+}
