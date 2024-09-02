@@ -22,3 +22,29 @@ html {
   color: #ffffff; /* Цвет текста заполнителя */
   opacity: 0.7; /* Немного прозрачности для заполнителя */
 }
+
+
+
+.social-item {
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  width: 180px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: background 0.3s ease, color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+}
+
+.whatsapp {
+  background: linear-gradient(45deg, #25d366, #128c7e);
+  font-weight: bold;
+}
+
+.whatsapp:hover {
+  text-decoration: none;
+  color: #fff;
+}
